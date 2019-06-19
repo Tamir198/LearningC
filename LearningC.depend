@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1560888230 source:c:\users\the vegan\desktop\learningc\learningc\main.c
+	<stdio.h>
+	<stdlib.h>
+
