@@ -1,2 +1,1 @@
-#define MYNAME "tamir"
-#define AGE "333"
+#define AGE "22"
