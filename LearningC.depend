@@ -3,9 +3,12 @@
 	<stdio.h>
 	<stdlib.h>
 
-1560968188 source:c:\users\the vegan\desktop\c project\learinigc\main.c
+1561227605 source:c:\users\the vegan\desktop\c project\learinigc\main.c
 	<stdio.h>
 	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<math.h>
 	"tamirInfo.h"
 
 1560968260 c:\users\the vegan\desktop\c project\learinigc\tamirinfo.h
