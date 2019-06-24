@@ -19,19 +19,24 @@
 
 int main()
 {
+    char someString[50] = "aaaa";
+    puts("this is like  scanf but with new line at the end by default");
 
+    puts(someString);
+    gets(someString);
+    puts(someString);
 
     /**************************************************************************/
     ///String manipulations in c
 
-    //replace strings
+     ///replace strings
+    /*
     char concatinat [50] = "My name is ";
-    printf(strcpy(concatinat,"mario"));
+    printf(strcpy(concatinat,"mario")); //replace My name is with mario
+    */
 
-
-
-
-    /*concatenate  strings
+     ///concatenate  strings
+    /*
     char concatinat [50] = "My name is ";
     printf(strcat(concatinat,"mario"));
     */
@@ -149,7 +154,7 @@ int main()
     printf("this is my name %s" , myName);
     */
 
-
     /**************************************************************************/
+
     return 0;
 }
