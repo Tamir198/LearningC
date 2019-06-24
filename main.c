@@ -6,6 +6,7 @@
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
+#include <stdbool.h>
 #include "tamirInfo.h"
 
 
@@ -18,6 +19,36 @@
 
 int main()
 {
+
+
+      char password[20] ;
+      printf("Enter name: \n");
+      scanf("%s", password);
+      bool upper;
+      bool lower;
+      bool number;
+
+      for(int i = 0;  password[i] != 0 ; i++){
+          printf("%c char \n ", password[i]);
+
+          if(password[i] >= 'a' && password[i] <= 'z'){
+            lower = true;
+            printf("33333333333333 \n");
+          }else if( isdigit(password[i])){
+            number = true;
+            printf("22222222222 \n");
+          }else if (password[i] >= 'A' && password[i] <= 'Z'){
+            upper = true;
+            printf("111111111111111 \n");
+          }
+      }
+
+      if(upper && lower && number){
+        printf("good job \n");
+      }else{
+        printf("you suck \n");
+      }
+     // printf("%s is your password",password);
 
 
 
