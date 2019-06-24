@@ -19,12 +19,42 @@
 
 int main()
 {
+    /**************************************************************************/
+    ///Messing with math
+
+    //absolute  value abs()
+    printf("Dice roll 1-6... %d \n" , (rand()%6) + 1 ); //generates random number with custom range 1-6
+    printf("Dice roll 1-6... %d \n" , (rand()%6) + 1 ); //generates random number with custom range 1-6
+    printf("Dice roll 1-6... %d \n" , (rand()%6) + 1 ); //generates random number with custom range 1-6
+    printf("Dice roll 1-6... %d \n" , (rand()%6) + 1 ); //generates random number with custom range 1-6
+    printf("Dice roll 1-6... %d \n" , (rand()%6) + 1 ); //generates random number with custom range 1-6
+    printf("Dice roll 1-6... %d \n" , (rand()%6) + 1 ); //generates random number with custom range 1-6
+    printf("Dice roll 1-6... %d \n" , (rand()%6) + 1 ); //generates random number with custom range 1-6
+    printf("Dice roll 1-6... %d \n" , (rand()%6) + 1 ); //generates random number with custom range 1-6
+    printf("Dice roll 1-6... %d \n" , (rand()%6) + 1 ); //generates random number with custom range 1-6
+    printf("Dice roll 1-6... %d \n" , (rand()%6) + 1 ); //generates random number with custom range 1-6
+    printf("Rundom number... %d \n" , rand()); //generates random number
+
+
+    printf("%f is the square root of 64 ", sqrt(64));
+    printf("%f is the hezka (5^3 = 5*5*5) of 5^3 %d \n",pow(5,3));
+    printf("this is absolute value of %d \n",abs(3-9));
+
+
+    float someFloat = 5.4564;
+    printf("%.2f rounding to bottom is \n",floor(someFloat));
+    printf("%.2f rounding up is \n",ceil(someFloat));
+
+    /**************************************************************************/
+    ///gets and puts
+    /*
     char someString[50] = "aaaa";
     puts("this is like  scanf but with new line at the end by default");
+    puts(someString);
+    gets(someString); //get string from user
+    puts(someString); // print it
 
-    puts(someString);
-    gets(someString);
-    puts(someString);
+    */
 
     /**************************************************************************/
     ///String manipulations in c
