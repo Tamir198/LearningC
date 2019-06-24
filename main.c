@@ -21,6 +21,32 @@ int main()
 {
 
 
+    /**************************************************************************/
+    ///String manipulations in c
+
+    //replace strings
+    char concatinat [50] = "My name is ";
+    printf(strcpy(concatinat,"mario"));
+
+
+
+
+    /*concatenate  strings
+    char concatinat [50] = "My name is ";
+    printf(strcat(concatinat,"mario"));
+    */
+
+      /**************************************************************************/
+    /*
+    char some = 'a' ;
+    printf("%c this is to upper case in c",toupper(some) );
+    */
+      /**************************************************************************/
+
+      /* user enters password - if contain upper letter and regular letter and number - he rocks
+      else - this fool better enter stronger password
+
+
       char password[20] ;
       printf("Enter name: \n");
       scanf("%s", password);
@@ -42,13 +68,15 @@ int main()
             printf("111111111111111 \n");
           }
       }
-
       if(upper && lower && number){
         printf("good job \n");
       }else{
         printf("you suck \n");
       }
-     // printf("%s is your password",password);
+
+
+      */
+
 
 
 
@@ -57,7 +85,8 @@ int main()
 
     /**************************************************************************/
 
-    /*check if the letter is capital or not
+    ///check if the letter is capital or not
+    /*
 
     int isUpperCase = 'd';
 
@@ -74,7 +103,8 @@ int main()
 
     /**************************************************************************/
 
-    /*In c this is how you check is int/char are numbers or chars
+    ///In c this is how you check is int/char are numbers or chars
+    /*
 
     int number = '9';
 
@@ -86,8 +116,8 @@ int main()
     */
 
     /**************************************************************************/
-
-    /* This is how you check is a letter is from the abc
+    /// This is how you check is a letter is from the abc
+    /*
     int some = "a";
 
     if(!isalpha(some)){
@@ -104,17 +134,15 @@ int main()
     /**************************************************************************/
 
 
-    /*sHORTEN IF IN C
+    /*Shorten IF IN C
 
     (1 ==2) ? printf("Condition is true") : printf("Condition is false");
 
 
 
-
-
     /**************************************************************************/
-
-    /*Replacing the array context
+    ///Replacing the array context
+    /*
     char myName [] = "tamir" ;
     //In c this is how you replace something that inside array
     strcpy(myName,"lalal");
