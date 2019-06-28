@@ -8,6 +8,7 @@
 #include <math.h>
 #include <stdbool.h>
 #include "tamirInfo.h"
+#include "header.h"
 
 
 #define Name "this is the value" /*search the program got anything called Name and replace them with value
@@ -19,9 +20,17 @@
 
 int main()
 {
+    /**************************************************************************/
+     ///Structure
+
+    struct user tamir;
+    tamir.userAge = 5;
+    printf("%d  hey",tamir.userAge);
 
     /**************************************************************************/
     ///Handling memory - using malloc() method
+
+    /*
 
     int * points;
 
@@ -33,6 +42,7 @@ int main()
 
     free(points);
 
+    */
 
 
     /**************************************************************************/
