@@ -21,8 +21,27 @@ int main()
 {
 
     /**************************************************************************/
+    ///Handling memory - using malloc() method
+
+    int * points;
+
+    ///allocate memory equal to int * 5
+
+    points = (int *) malloc(5 * sizeof(int));
+
+    ///give back the memory that I took from the heap
+
+    free(points);
+
+
+
+    /**************************************************************************/
 
     ///string and  lengths of them:
+
+    //How to only accept XX number or chars from the user and the rest will get cut off and not go in the program
+
+    /*
 
     char someString [20];
     char * pSomeString = someString;
@@ -30,6 +49,8 @@ int main()
     fgets(pSomeString,20,stdin);
     //fgets(where to store it,max chars,input type stdin for key board);
     puts(pSomeString);
+
+    */
     /**************************************************************************/
 
 
