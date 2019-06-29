@@ -20,12 +20,49 @@
 
 int main()
 {
+
+    /**************************************************************************/
+    ///Saving thins local:
+
+    FILE * fPointer; //create a file
+    /*
+    //fPointer = fopen("fileName.txt" , "r"); //fopen - creates file, with file name and w for first time writing
+    //fprintf(fPointer,"what to write\n"); //print things to the file
+
+    fPointer = fopen("fileName.txt" , "r"); //too read the exit file
+    //fPointer = fopen("fileName.txt" , "a"); //too apend to file the exit file
+    fprintf(fPointer,"this is text");
+
+    char singleLine [100];
+
+    while(fgets(singleLine, sizeof singleLine, fPointer) != NULL) {//keep reading as long as you are not at the end of the file
+        puts(singleLine);
+    }
+    */
+
+     /*
+    fPointer = fopen("fileName.txt" , "r"); //too read the file
+    char singleLine [100];
+
+    while(!feof(fPointer)){ //while file is not finished
+      fgets(singleLine,100,fPointer);
+      puts(singleLine);
+    }
+
+
+    fclose(fPointer); //cleaning memory when done with the file.
+
+    */
+
     /**************************************************************************/
      ///Structure
+     /*
 
-    struct user tamir;
+    struct user tamir; //I can think about this as class instance in java
     tamir.userAge = 5;
-    printf("%d  hey",tamir.userAge);
+
+    */
+
 
     /**************************************************************************/
     ///Handling memory - using malloc() method
