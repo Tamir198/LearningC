@@ -18,14 +18,35 @@
 
 
 
+someFunction(); //this called prototype -
+// c compiler goes from up to down so every functions that
+// i have and it is below main need to be declared here so the compiler will know -"look for this function"
+
+
 int main()
 {
+    /**************************************************************************/
+    ///functions
+    someFunction();
+
+    /**************************************************************************/
+
+     ///Random access files
+
+     FILE * fPointer;
+     fPointer = fopen("fileName", "w+"); //w+ = open a file for writing first and then read it
+     fputs("text for acess files",fPointer);
+
+
+
+     fclose(fPointer);
 
     /**************************************************************************/
     ///Saving thins local:
 
-    FILE * fPointer; //create a file
+
     /*
+     FILE * fPointer; //create a file
     //fPointer = fopen("fileName.txt" , "r"); //fopen - creates file, with file name and w for first time writing
     //fprintf(fPointer,"what to write\n"); //print things to the file
 
@@ -321,4 +342,9 @@ int main()
     /**************************************************************************/
 
     return 0;
+}
+
+
+someFunction(){
+printf("this is some function beow the main");
 }
